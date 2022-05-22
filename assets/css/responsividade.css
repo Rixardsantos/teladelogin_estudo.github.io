@@ -1,0 +1,35 @@
+@media only screen and (max-width: 950px){
+    .card__login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+        .main__login {
+            flex-direction: column;
+        }
+
+        .left__title {
+            display: none;
+
+        }
+
+        .left__login {
+            width: 100%;
+            height: auto;
+        }
+
+        .right__login {
+            width: 100%;
+            height: auto;
+        }
+
+        .left__img {
+            width: 50vh;
+        }
+
+        .card__login {
+            width: 90%;
+        }
+        
+}
